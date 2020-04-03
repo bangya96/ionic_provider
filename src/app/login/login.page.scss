@@ -1,0 +1,19 @@
+ion-content{
+  ion-icon{
+    zoom:4;
+    width: 100%;
+  }
+  form{
+    padding: 20px;
+  }
+  ion-button{
+    margin-top: 10px;
+    &:last-child{
+      --color:#3b5998;
+      --border-color:#3b5998;
+    }
+  }
+    .high{
+      height: 8%;
+    }
+}

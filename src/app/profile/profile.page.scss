@@ -1,0 +1,41 @@
+ion-content{
+
+  .top{
+    height: 200PX;
+    background-image: linear-gradient(to right, #1768f9, #1acdd3);
+    //border-bottom-left-radius:40%;
+    border-bottom-right-radius:100%;
+
+    ion-back-button{
+      color: white;
+      margin: 6px;
+    }
+  }
+
+  .content{
+    margin-top: -160px;
+
+    .avatar{
+      width: 180px;
+      height: 180px;
+      margin : auto;
+    }
+
+    .profile{
+      //height: 180px;
+      background-color: rgba(246, 246, 246, 0.81);
+      //background-color: rgba(60, 119, 246, 0.81);
+      margin: 30px;
+      border-radius: 10px;
+      //box-shadow: 3px 5px #a8a8a8;
+      //border: 2px solid red; // kotak tepi cheak line
+    }
+
+    .data{
+      padding: 20px;
+    }
+    hr { display: block; height: 1px;
+      border: 0; border-top: 1px solid #ccc;
+      margin: 1em 0; padding: 0; }
+  }
+}

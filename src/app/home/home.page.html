@@ -1,0 +1,89 @@
+<ion-content>
+  <div class="top">
+    <ion-row>
+      <div class="top-left">
+        <h5>Hi, {{user["username"]}}</h5>
+        <hr>
+        <p>eWallet Balance</p>
+        <h2 class="bold">RM {{user["ew_balance"]}}</h2>
+      </div>
+      <div class="top-right ion-text-right">
+        <ion-avatar class="avatar">
+          <ion-img src="{{user['profile_pic']}}" alt="loading"></ion-img>
+        </ion-avatar>
+        <br>
+        <a class="btn" (click)="logout()">logout ></a>
+      </div>
+    </ion-row>
+  </div>
+  <div class="bar">
+    <ion-row>
+      <div class="bar-list" (click)="profile()">
+        <ion-img class="bar-icon" src="assets/icon/Apps-02.png" ></ion-img>
+        <p class="p-icon bold">Profile</p>
+      </div>
+      <div class="bar-list" (click)="soon()">
+        <ion-img class="bar-icon" src="assets/icon/Apps-03.png"></ion-img>
+        <p class="p-icon bold">Call</p>
+      </div>
+      <div class="bar-list" (click)="soon()">
+        <ion-img class="bar-icon" src="assets/icon/Apps-04.png"></ion-img>
+        <p class="p-icon bold">Massage</p>
+      </div>
+      <div class="bar-list" (click)="soon()">
+        <ion-img class="bar-icon" src="assets/icon/Apps-05.png"></ion-img>
+        <p class="p-icon bold">Setting</p>
+      </div>
+    </ion-row>
+  </div>
+  <div class="title">
+    <p><b>Functions</b></p>
+  </div>
+  <div class="work-space">
+    <ion-row>
+      <div class="work-list" (click)="soon()">
+        <ion-img class="bar-icon" src="assets/icon/Apps-06.png"></ion-img>
+        <p class="p-icon">Right</p>
+      </div>
+      <div class="work-list" (click)="soon()">
+        <ion-img class="bar-icon" src="assets/icon/Apps-07.png"></ion-img>
+        <p class="p-icon">Mentor</p>
+      </div>
+      <div class="work-list" (click)="soon()">
+        <ion-img class="bar-icon" src="assets/icon/Apps-08.png"></ion-img>
+        <p class="p-icon">Smartphone</p>
+      </div>
+    </ion-row>
+    <br>
+    <ion-row>
+      <div class="work-list" (click)="soon()">
+        <ion-img class="bar-icon" src="assets/icon/Apps-09.png"></ion-img>
+        <p class="p-icon">Locations</p>
+      </div>
+      <div class="work-list" (click)="soon()">
+        <ion-img class="bar-icon" src="assets/icon/Apps-10.png"></ion-img>
+        <p class="p-icon">Play</p>
+      </div>
+      <div class="work-list" (click)="soon()">
+        <ion-img class="bar-icon" src="assets/icon/Apps-11.png"></ion-img>
+        <p class="p-icon">Star</p>
+      </div>
+    </ion-row>
+  </div>
+  <br>
+  <div class="title">
+    <p><b>Develop With</b></p>
+  </div>
+  <div class="slider">
+    <!-- slides  -->
+    <ion-slides>
+      <!-- single slide iteration -->
+      <ion-slide *ngFor="let item of items">
+        <div class="img-slider">
+          <img class="img-boder" src="{{item.img_url}}" />
+          <p>{{item.title}}</p>
+        </div>
+      </ion-slide>
+    </ion-slides>
+  </div>
+</ion-content>

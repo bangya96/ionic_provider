@@ -1,0 +1,8 @@
+{
+  "name": "hemicov2",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

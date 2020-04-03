@@ -1,0 +1,430 @@
+.listHelpItem{
+    --background: #ddd;
+    --inner-padding-start:6%;
+}
+
+ion-icon.globeIcon{
+    zoom: 1.5;
+    color: white;
+
+}
+ion-toolbar.toolbar{
+    --background:var(--ion-color-standard);
+    color: white;
+    
+}
+.menuText{
+    margin-left: 5%;
+}
+.avatar{
+    --border-radius: 50px;
+    height: 40px;
+    width: 58px;	
+}
+h5 {
+    font-size: 18px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-weight: bold;
+}
+p{
+    font-size:14px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+.backgroundImg{
+    height: 100%;
+    width: 100%;
+    
+}
+.background{
+    background:var(--ion-color-standard);
+}
+img.bgImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    opacity: 0.1;
+}
+.frontContent{
+    position: absolute;
+    margin-bottom: 10px;
+}
+.itemBgImg{
+    position: absolute;
+    width: 110%;
+    margin-top: -106px;
+    --background: var(--ion-color-standard);
+}
+.menuText{
+    color: white;
+}
+img.avatarImg{
+    filter:brightness(114%);
+}
+.toggleicon{
+    zoom: 1.3;
+    margin-top: 3px;
+}
+.expandableText{
+    font-size: 16px;
+}
+//list design
+.btnList{
+    margin-left: 50%;
+    margin-top: 20%;
+    --color:black;
+    --color-activated:black;
+}
+.categoryText{
+    margin-top: 2%;
+}
+.homeDivText{
+    margin-top: 2%;
+    margin-left: -18%;
+}
+.shopDivText{
+    margin-top: 2%;
+    margin-left: -10%;
+}.categoryDivText{
+    margin-top: 2%;
+    margin-left: -6%;
+}
+
+.homeIcon{
+    margin-top: 44%;
+}
+.categoryIcon{
+    margin-top: 44%;
+}
+
+ion-icon.iconHome{
+    zoom: 1.5;
+    margin-top: 6px;
+    margin-left: -145%;
+}
+ion-icon.iconCategory{
+    zoom: 1.5;
+    margin-top: 5px;
+    margin-left: -60%;
+}
+ion-icon.iconShop{
+    zoom: 1.5;
+    margin-top: 10px;
+    margin-left: -90%;
+}
+
+ion-icon.otherIcons{
+    zoom: 1.5;
+}
+.otherIconsDiv{
+    margin-top: 30%;
+    margin-left:30%;
+}
+.otherDivCol{
+    width: 100px;
+}
+.otherDivText{
+    margin-top: 2%;
+    margin-left: -14%;
+    width: 250px;
+    height: 45px;
+}
+.othersItems{
+    border-bottom:solid lightgray;
+    border-width:0.8px
+}
+.shopItem{
+    border-bottom:solid lightgray;
+    border-width:0.8px;
+    margin-top: 0%;
+}
+.avatarItem{
+    --background: var(--ion-color-standard);
+}
+/*component list design*/
+.helpIcon{
+    zoom: 1.7;
+    color: black;
+    margin-left: -25%
+}
+.HelpDivText{
+    margin-left: -5%;
+    margin-top: -2%;
+}
+.paraExpandList{
+    font-size: 17px;
+    color: black;
+    margin-left: 10%;  
+  }
+  .toggleicon{
+    zoom: 1.8;
+}
+.helpItem{
+    width: 140%;
+    margin-left: 12%;
+    --background: lightgray;
+}
+.helpItemSlider{
+    width: 140%;
+    margin-left: 16%;
+    --background: lightgray;
+}
+.helpItemSegment{
+    width: 140%;
+    margin-left: 9%;
+    --background: lightgray;
+}
+.helpItemCheckbox{
+    width: 140%;
+    margin-left: 14%;
+    --background: lightgray;
+}
+.helpItemBadge{
+    width: 140%;
+    margin-left: 26%;
+    --background: lightgray;
+}
+.helpItemToggle{
+    width: 140%;
+    margin-left: 17%;
+    --background: lightgray;
+}
+.helpItemSearchbar{
+    width: 140%;
+    margin-left: 19%;
+    --background: lightgray;
+}
+.helpItemFAB{
+    width: 140%;
+    margin-left: 22%;
+    --background: lightgray;
+}
+.helpItemAlert{
+    width: 140%;
+    margin-left: 24%;
+    --background: lightgray;
+}
+.helpItemToast{
+    width: 140%;
+    margin-left: 18%;
+    --background: lightgray;
+}
+.helpItemActionsheet{
+    width: 140%;
+    margin-left: 19%;
+    --background: lightgray;
+}
+.helpItemParallex{
+    width: 140%;
+    margin-left: 21%;
+    --background: lightgray;
+}
+.helpItemForm{
+    width: 140%;
+    margin-left: 21%;
+    --background: lightgray;
+}
+
+.toggleInnericon{
+    zoom: 1;
+    width: 18px;
+}
+.parainnerList{
+    font-size: 16px;
+    //margin-left: 6%;
+    width: 100%;
+}
+/*component item design*/
+.listItem{
+--padding-start:0px;
+--padding-end:0px;
+--background: #eee;
+--inner-padding-end: 0px;
+}
+.listGrid{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 150%;
+}
+.btnListHelp{
+    margin-left: 40%;
+    margin-top: 10px;
+    color: black;
+}
+.listRow{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.listCol{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.expandDiv{
+    width: 130%;
+    //margin-left: 12%;
+}
+.textLabel{
+    margin-top: 15px;
+    margin-left: 5%;
+    float: left;
+}
+.listLabel{
+    margin-top: 15px;
+    margin-left: 5%;
+    float: left;    
+}
+.gridLabel{
+    margin-top: 15px;
+    margin-left: 5%;
+    float: left; 
+}
+.cardLabel{
+    margin-top: 15px;
+    margin-left: 10%;
+    float: left;
+}
+.sliderLabel{
+    margin-top: 15px;
+    margin-left: 10%;
+    float: left;  
+}
+.tabLabel{
+    margin-top: 15px;
+    margin-left: 10%;
+    float: left;
+}
+.segmentLabel{
+    margin-top: 15px;
+    margin-left: 10%;
+    float: left; 
+}
+.buttonLabel{
+    margin-top: 15px;
+    margin-left: 10%;
+    float: left; 
+}
+.radioLabel{
+    margin-top: 15px;
+    margin-left: 10%;
+    float: left; 
+}
+.checkboxLabel{
+    margin-top: 15px;
+    margin-left: 10%;
+    float: left;  
+}
+.badgeLabel{
+    margin-top: 15px;
+    margin-left: 10%;
+    float: left; 
+}
+.toggleLabel{
+    margin-top: 15px;
+    margin-left: 10%;
+    float: left; 
+}
+.searchbarLabel{
+    margin-top: 15px;
+    margin-left: 10%;
+    float: left; 
+}
+.fabLabel{
+    margin-top: 15px;
+    margin-left: 10%;
+    float: left; 
+}
+.alertLabel{
+    margin-top: 15px;
+    margin-left: 10%;
+    float: left;
+}
+.toastLabel{
+    margin-top: 15px;
+    margin-left: 10%;
+    float: left;
+}  
+.actionsheetLabel{
+    margin-top: 15px;
+    margin-left: 10%;
+    float: left; 
+}
+.parallaxLabel{
+    margin-top: 15px;
+    margin-left: 10%;
+    float: left;
+}
+.divListItem{
+    width: 200%;
+}
+.expandList{
+    width: 130%;
+}
+.listIcon{
+    zoom: 1.5;
+    margin-top: 3px;
+    color: red;
+}
+.textPara{
+    margin-top: 5px;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+.textParaComponents{
+    margin-top: 5px;
+    float: left;
+    font-weight: bold;
+}
+.divPara{
+margin-left: auto;
+margin-right: auto;
+}
+.buttonList{
+    --border-radius: 100%;
+}
+.divCount{
+    border: solid lightblue;
+     border-radius:100%;
+     height: 80%;
+     width: 50%;
+     color: lightblue;
+}
+.contentClass{
+    --background: #eee;
+}
+.mainComponent{
+    --background: lightgray;
+}
+.listClass{
+    padding-top: 0;
+    background:#eee;
+}
+.LogoImg{
+    height: 100%;
+    width: 100%;
+}
+.logoDiv{
+    padding-top: 15px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textDiv{
+    text-align: center;
+    color: white;  
+}
+.allColPos{
+    position:static;
+    width: 100px
+}
+.div-badge{
+    text-align: center;
+    margin-top: 5px;
+}
+.comp-header{
+    opacity: 0.5;
+    height: 50px;
+    
+}
