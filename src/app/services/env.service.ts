@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class EnvService {
-  API_URL = 'http://apps_api.test/';
+  API_URL = 'http://laravel-app-api.test/';
 
   constructor() { }
 }
